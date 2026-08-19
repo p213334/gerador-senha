@@ -1,0 +1,49 @@
+:root {
+    --fundo-senha: #303030;
+}
+
+/* Estilização básica das labels e inputs */
+label {
+    font-size: 20px;
+}
+
+.checkbox {
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+}
+
+/* Estilização da barra de força da senha */
+.barra {
+    background-color: var(--fundo-senha);
+    height: 30px;
+    width: 100%;
+}
+
+.forca {
+    height: 30px;
+    position: relative;
+    bottom: 30px;
+}
+
+/* Níveis de força */
+.fraca {
+    width: 25%;
+    background-color: #E71B32; 
+}
+
+.media {
+    background-color: #FAF408;
+    width: 50%;
+}
+
+.forte {
+    background-color: #00FF85;
+    width: 100%;
+}
+
+/* Alinhamento dos textos da força da senha */
+.parametro-senha-textos {
+    display: flex;
+    justify-content: space-between;
+}
